@@ -1,0 +1,4 @@
+patient_id,age,sex,ground_truth_disease_id,ground_truth_disease_name,initial_evidence_raw,initial_evidence_id,initial_evidence_value_id,num_evidences,num_differential_diagnoses
+P001,55,M,D1,Heart Attack,chest pain,E001,,3,2
+P002,24,F,D2,Broken Arm,arm hurts after fall,E004,,2,1
+P003,30,M,D3,Common Cold,runny nose,E006,,2,3

@@ -1,0 +1,8 @@
+patient_id,evidence_raw,evidence_id,evidence_value_id,evidence_type,data_type,is_initial_evidence,split
+P001,chest pain,E001,,symptom,text,True,train
+P001,shortness of breath,E002,,symptom,text,False,train
+P001,sweating,E003,,symptom,text,False,train
+P002,arm hurts after fall,E004,,symptom,text,True,train
+P002,swelling,E005,,symptom,text,False,train
+P003,runny nose,E006,,symptom,text,True,test
+P003,cough,E007,,symptom,text,False,test

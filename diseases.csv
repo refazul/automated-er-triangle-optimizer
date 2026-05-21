@@ -1,0 +1,4 @@
+disease_id,disease_name,disease_name_en,icd10_id,severity,num_defined_symptoms,num_defined_antecedents
+D1,Myocardial Infarction,Heart Attack,I21.9,5,10,2
+D2,Fracture of ulna,Broken Arm,S52.209A,3,5,1
+D3,Nasopharyngitis,Common Cold,J00,1,8,0
