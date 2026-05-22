@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  er-triage-notebook:
+    image: jupyter/pyspark-notebook:latest
+    container_name: er-triage-notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./datasets:/home/jovyan/work/datasets
+      - ./er-optimizer.ipynb:/home/jovyan/work/er-optimizer.ipynb
+    command: ["start-notebook.sh", "--NotebookApp.token=''", "--NotebookApp.password=''"]
